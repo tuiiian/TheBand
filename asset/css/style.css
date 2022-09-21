@@ -223,7 +223,7 @@ html{
 	/* 50% cua chinh no */
 	padding-top: 50%;
 	/* nhap hinh anh top  */
-	background: url('/asset/img/chicago.jpg') top center/cover no-repeat ;
+	background: url('../img/chicago.jpg') top center/cover no-repeat ;
 }
 
 #slider .text-content {
