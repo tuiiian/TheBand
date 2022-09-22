@@ -7,6 +7,7 @@
 
 /* font chữ cho tất cả thẻ con của html */
 html{
+	scroll-behavior: smooth;
 	font-family: Arial, Helvetica, sans-serif;
 }
 /*
@@ -95,15 +96,13 @@ html{
 
 
 /* Main */
-#main{
-
-}
 
 #header{
 	/* lam noi header */
 	z-index: 1;
 	/* chiều cao */
 	height: 46px;
+	/* overflow: hidden; */
 	/* màu nền */
 	background-color: #000;
 	/* làm nổi lên một lớp */
@@ -178,7 +177,7 @@ html{
 }
 /* khi hover vào subnav display : block */
 #nav li:hover .subnav{
-	display: inline-block;
+	display: block;
 }
 
 
@@ -198,21 +197,35 @@ html{
 	font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn{
 	/*  */
 	float: right;
 	line-height: 46px;
 	padding: 1px 23px 0 23px ;
 }
-
 #header .search-btn:hover{
 	background-color: #f44336;
 	cursor: pointer ;
 }
 
+#header .mobile-menu-btn:hover {
+	color: #000;
+	background-color: #ccc;
+}
+
+#header .mobile-menu-btn,
 #header .search-icon{
 	color: #fff;
-	font: 20px;
+	font-size: 20px;
+	line-height: 46px;
 }
 
 
@@ -253,15 +266,14 @@ html{
 	font-size: 15px;	
 }
 
-.content{
-
-}
-
 .content .content-section{
 	width: 800px;
+	max-width: 100%;
 	padding: 64px 0 112px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 .content .section-heading{
@@ -292,6 +304,7 @@ html{
 
 .content .member-list{
 	margin-top: 48px;
+	text-align: center;
 	/* om chon item trong lish */
 	/* overflow: hidden; */
 }
