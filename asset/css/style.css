@@ -223,7 +223,7 @@ html{
 	/* 50% cua chinh no */
 	padding-top: 50%;
 	/* nhap hinh anh top  */
-	background: url('/img/chicago.jpg') top center/cover no-repeat ;
+	background: url('/asset/img/chicago.jpg') top center/cover no-repeat ;
 }
 
 #slider .text-content {
@@ -253,18 +253,18 @@ html{
 	font-size: 15px;	
 }
 
-#content{
+.content{
 
 }
 
-#content .content-section{
+.content .content-section{
 	width: 800px;
 	padding: 64px 0 112px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#content .section-heading{
+.content .section-heading{
 	font-size: 38px;
 	font-weight: 500;
 	text-align: center;
@@ -272,7 +272,7 @@ html{
 	letter-spacing: 4px;
 }
 
-#content .section-sub-heading{
+.content .section-sub-heading{
 	font-size: 15px;
 	text-align: center;
 	margin-top: 25px;
@@ -282,7 +282,7 @@ html{
 	opacity: 0.6;
 }
 
-#content .about-text{
+.content .about-text{
 	margin-top: 25px;
 	font-size: 15px;
 	/* can deu chu sang 2 ben */
@@ -290,13 +290,13 @@ html{
 	line-height: 1.4;
 }
 
-#content .member-list{
+.content .member-list{
 	margin-top: 48px;
 	/* om chon item trong lish */
 	/* overflow: hidden; */
 }
 
-#content .member-item{
+.content .member-item{
 	/* keo element sang trai */
 	/* float: left ;  */
 	/* chieu ngang cua item */
@@ -305,11 +305,11 @@ html{
 
 }
 
-#content .member-name{
+.content .member-name{
 	font-size: 15px;
 }
 
-#content .member-img{
+.content .member-img{
 	margin-top: 15px;
 	width: 154px;
 	/* tao ra mot goc bo cho img */
