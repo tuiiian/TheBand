@@ -48,7 +48,9 @@ html{
 	display: inline-block;
 	margin-top: 15px;
 	border: none;
-
+	appearance: none;
+	/* safaryn  */
+	-webkit-appearance: none;
 }
 
 .btn:hover{
