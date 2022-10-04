@@ -238,7 +238,7 @@ html{
 	/* 50% cua chinh no */
 	padding-top: 50%;
 	/* nhap hinh anh top  */
-	background: url('/asset/img/chicago.jpg') top center/cover no-repeat ;
+	background: url('../img/chicago.jpg') top center/cover no-repeat ;
 }
 
 #slider .text-content {
@@ -257,6 +257,7 @@ html{
 	/* o giua phan can giua */
 	text-align: center;
 	/* width: 100%; */
+	text-shadow: 0 0 1px #000;
 }
 
 #slider .text-hedding{
